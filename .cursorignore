@@ -1,0 +1,32 @@
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.development
+.env.test
+.env.figma
+
+#ignore .env files in all apps
+**/apps/**/.env
+**/apps/**/.env.local
+**/apps/**/.env.development.local
+**/apps/**/.env.test.local
+**/apps/**/.env.production.local
+**/apps/**/.env.development
+
+#ignore .env files in all libs
+**/libs/**/.env
+**/libs/**/.env.local
+**/libs/**/.env.development.local
+**/libs/**/.env.test.local
+**/libs/**/.env.production.local
+**/libs/**/.env.development
+
+# ignore node_modules in all apps and libs
+node_modules
+**/apps/**/node_modules
+**/libs/**/node_modules
+
+uploads/
+uploads
