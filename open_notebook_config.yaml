@@ -31,21 +31,21 @@ suggested_models:
   xai:
     language:
       - grok-beta
+      - grok-3
+      - grok-3-mini
   anthropic:
     language:
       - claude-3-5-sonnet-latest
   elevenlabs:
     text_to_speech:
       - eleven_turbo_v2_5
-  xai:
-    language:
-      - grok-3
-      - grok-3-mini
   ollama:
     language:
-      - qwen:14b
+      - qwen3:14b
+      - gemma3:12b
+      - myaniu/qwen2.5-1m:latest
     embedding:
-      - mxbai-embed-large
+      - mxbai-embed-large:latest
   deepseek:
     language:
       - deepseek-chat
